@@ -23,6 +23,7 @@ nav a {
     color: #7D7D7D;
     text-decoration: none;
     padding-bottom: 5px;
+    transition: 200ms linear;
 }
 
 nav a:hover {
@@ -31,7 +32,7 @@ nav a:hover {
     font-size: 15px;
     border: none;
     box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.800);
-    transition: all 200ms linear;
+    transition: 200ms linear;
 }
 
 .flex-container {
@@ -46,7 +47,9 @@ nav a:hover {
     padding-top: 21px;
     padding-bottom: 94px;
     list-style: none;
+    transition: transform 200ms ease-out;
 }
+
 .card:hover {
     transform: scale(1.05);
     transition: transform 200ms ease-out;
@@ -89,6 +92,8 @@ nav a:hover {
     width: 165px;
     height: 60px;
     margin-bottom: 10px;
+    transition: 200ms linear;
+    cursor: pointer;
 }
 
 .button:hover {

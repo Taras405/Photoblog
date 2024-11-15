@@ -47,9 +47,8 @@ nav a:hover {
     padding-top: 21px;
     padding-bottom: 94px;
     list-style: none;
-    transition: transform 200ms ease-out;
+    transition: 200ms linear;
 }
-
 .card:hover {
     transform: scale(1.05);
     transition: transform 200ms ease-out;
@@ -93,7 +92,6 @@ nav a:hover {
     height: 60px;
     margin-bottom: 10px;
     transition: 200ms linear;
-    cursor: pointer;
 }
 
 .button:hover {
